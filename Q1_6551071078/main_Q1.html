@@ -23,15 +23,15 @@
                 color:red;
             }
             caption{
-                font-size: 18px;
+                font-size: 16px;
                 color: blue; 
                 font-weight:bold;
                 margin-top: 0;
             }
             .container {
                 border: 3px solid black;            
-                margin: 20px auto; 
-                width: 600px; 
+                margin: 10px auto; 
+                width:600px;
                 padding: 15px;              
             }
             .header{
@@ -41,31 +41,28 @@
                 margin: -15px -15px 0 -15px;
             }
             .content{
-                padding:5px;
+                padding:10px;
+                display:flex; 
+                align-items:flex-start;
             }
         </style>
     </head>
     <body>
         <div class="container">
             <div class="header">e-commerce</div>
-            <div class="content">
                 <h1>eCommerce</h1>
-                <table>
-                    <tr>
-                        <td>
-                            <p style="text-align: justify;margin-top: 0;margin-bottom: 0;margin-right: 10px;">
-                                Ecommerce or electronic commerce, a subset of ebusiness, e-commerce<br> 
-                                is the purchasing, and exchanging of goods and services over computer<br>
-                                networks (such as the internet) through which transactions or terms of sale<br>
-                                are performed electronically.
-                            </p>
-                        </td>
-                        <td>
-                            <img src="ecommerce.jpg" alt="eCommerce" style="float:right">  
-                        </td>
-                    </tr>
-                </table>
-                <table border="2" style="margin:auto; border-color: blue; background-color: cyan; width:60%">
+                <div class="content">
+                    <div class="text">
+                        <p style="text-align: left;margin-right: 10px;">
+                            Ecommerce or electronic commerce, a subset of ebusiness, e-commerce<br> 
+                            is the purchasing, and exchanging of goods and services over computer<br>
+                            networks (such as the internet) through which transactions or terms of sale<br>
+                            are performed electronically.
+                        </p>
+                    </div>
+                    <img src="ecommerce.jpg" alt="eCommerce" style="width: 90px;">  
+                </div>
+                <table border="2" style="margin:auto; border-color: blue; background-color: cyan; width:50%">
                     <caption>eCommerce requirements</caption>
                     <tr>
                         <th style="text-align: right;">Shopping cart</th>
@@ -83,8 +80,6 @@
                     <li><a href="three.html">C2B(Consumer-to-Business)</a></li>
                     <li><a href="four.html">C2C(Consumer-to-Consumer)</a></li>
                 </ul>
-            </div>
         </div>        
     </body>
-
 </html>
